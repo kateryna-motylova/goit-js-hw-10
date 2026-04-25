@@ -1,0 +1,43 @@
+.back-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 12px;
+
+  margin-top: 32px;
+
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+
+  text-decoration: none;
+  color:#333;
+
+  font-size: 14px;
+  font-weight: 500;
+  
+  background: #fff;
+  
+  transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-icon {
+      width: 16px;
+      height: 16px;
+  
+      fill: currentColor;
+  
+      transform: rotate(180deg);
+
+}
+
+.back-link:hover {
+  border-color: #4a90e2;
+  color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+}
+
+.back-link:hover .back-icon {
+  transform: translate(-2px) rotate(180deg);
+}
