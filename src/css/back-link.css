@@ -3,7 +3,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-
+  margin-bottom: 24px;
   padding: 8px 12px;
 
   margin-top: 32px;
@@ -30,6 +30,13 @@
   
       transform: rotate(180deg);
 
+}
+
+.back-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .back-link:hover {
